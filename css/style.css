@@ -1,4 +1,10 @@
 body {
+  color: #757575;
+  background-color: #fff;
+}
+
+.list {
+  list-style: none;
 }
 
 /* цвет основного текста #212121 */
@@ -9,6 +15,12 @@ body {
 
 /* цвет ссылки в адресе rgba(255, 255, 255, 0.6) */
 
+/* акцент #2196F3 */
+
+/* вторичный цвет фона #F5F4FA */
+
+/* цвет фона герой и футер #2F303A */
+
 .page-header {
 }
 
@@ -16,9 +28,11 @@ body {
 }
 
 .logo-web {
+  color: #2196f3;
 }
 
 .logo-studio {
+  color: #000000;
 }
 
 .site-nav {
