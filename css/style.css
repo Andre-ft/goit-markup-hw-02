@@ -1,11 +1,35 @@
-* {
+body {
 }
 
-body {
+/* цвет основного текста #212121 */
+
+/* цвет вторичного текста #757575 */
+
+/* белый цвет текста #ffffff */
+
+/* цвет ссылки в адресе rgba(255, 255, 255, 0.6) */
+
+.page-header {
+}
+
+.logo {
 }
 
 .logo-web {
 }
 
 .logo-studio {
+}
+
+.site-nav {
+}
+
+.auth-nav {
+}
+
+.site-nav a {
+  text-decoration: none;
+}
+
+.site-nav a:hover {
 }
