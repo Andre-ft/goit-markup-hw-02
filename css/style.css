@@ -15,6 +15,7 @@
   --primary-text-color: #757575;
   --accent-color: #2196f3;
   --title-text-color: #212121;
+  --second-backgr-color: #f5f4fa;
 }
 
 body {
@@ -83,4 +84,32 @@ body {
 
 .feature-list .title {
   color: var(--title-text-color);
+}
+
+/* our team */
+
+.our-team-list .title {
+  color: var(--title-text-color);
+}
+
+/* Button */
+
+.hero .button {
+  color: #fff;
+  background-color: var(--accent-color);
+}
+
+.hero .button:hover {
+  color: var(--accent-color);
+  background-color: #fff;
+}
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--second-backgr-color);
+}
+
+.button:hover {
+  color: #fff;
+  background-color: var(--accent-color);
 }
