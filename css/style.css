@@ -1,0 +1,132 @@
+/* цвет основного текста #212121 */
+
+/* цвет вторичного текста #757575 */
+
+/* белый цвет текста #ffffff */
+
+/* цвет ссылки в адресе rgba(255, 255, 255, 0.6) */
+
+/* акцент #2196F3 */
+
+/* вторичный цвет фона #F5F4FA */
+
+/* цвет фона герой и футер #2F303A */
+
+/* Raleway 700 normal, Roboto 500 normal, roboto 900 normal, Roboto 700 normal, roboto 400 normal */
+
+:root {
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --title-text-color: #212121;
+  --second-backgr-color: #f5f4fa;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #fff;
+}
+
+.list {
+  list-style: none;
+}
+
+.page-header {
+}
+
+/* logo */
+
+.logo:hover,
+.logo:focus {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+/* site auth navigation */
+
+.site-nav {
+}
+
+.auth-nav {
+}
+
+.link {
+  text-decoration: none;
+}
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link {
+  color: #212121;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus,
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* hero section */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #fff;
+}
+
+/* section */
+
+.section {
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* features */
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* our team */
+
+.our-team-list .title {
+  color: var(--title-text-color);
+}
+
+/* Button */
+
+.hero .button {
+  color: #fff;
+  background-color: var(--accent-color);
+}
+
+.hero .button:hover {
+  color: var(--accent-color);
+  background-color: #fff;
+}
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--second-backgr-color);
+}
+
+.button:hover {
+  color: #fff;
+  background-color: var(--accent-color);
+}
