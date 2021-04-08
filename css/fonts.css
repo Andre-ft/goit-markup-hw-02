@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -8,10 +8,10 @@
 }
 
 @font-face {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url('../fonts/roboto-black900-webfont.woff') format('woff'),
-    url('../fonts/roboto-black900-webfont.woff2') format('woff2');
+  src: url('../fonts/roboto-black-webfont.woff') format('woff'),
+    url('../fonts/roboto-black-webfont.woff2') format('woff2');
 }
