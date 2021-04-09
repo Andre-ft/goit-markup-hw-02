@@ -12,7 +12,7 @@
 
 /* цвет фона герой и футер #2F303A */
 
-/* Raleway 700 normal, Roboto 500 normal, roboto 900 normal, Roboto 700 normal, roboto 400 normal */
+/* Raleway 700 normal, Roboto 500 normal, Roboto 900 normal, Roboto 700 normal, Roboto 400 normal */
 
 :root {
   --primary-text-color: #757575;
@@ -34,6 +34,15 @@ body {
 }
 
 /* logo */
+
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
 
 .logo:hover,
 .logo:focus {
