@@ -136,9 +136,11 @@ body {
 .button {
   color: var(--title-text-color);
   background-color: var(--second-backgr-color);
+  border-radius: 4px;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   color: #fff;
   background-color: var(--accent-color);
 }
