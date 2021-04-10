@@ -18,6 +18,7 @@
   --primary-text-color: #757575;
   --accent-color: #2196f3;
   --title-text-color: #212121;
+  --primary-bacgr-color: #2f303a;
   --second-backgr-color: #f5f4fa;
 }
 
@@ -56,8 +57,12 @@ body {
   color: var(--accent-color);
 }
 
-.logo-studio {
+.logo-studio-header {
   color: #000000;
+}
+
+.logo-studio-footer {
+  color: #ffffff;
 }
 
 /* site auth navigation */
@@ -93,7 +98,7 @@ body {
 /* hero section */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--primary-bacgr-color);
 }
 
 .hero-title {
@@ -146,4 +151,8 @@ body {
 .button:focus {
   color: #fff;
   background-color: var(--accent-color);
+}
+
+footer {
+  background-color: var(--primary-bacgr-color);
 }
