@@ -199,7 +199,6 @@ body {
 
 .portfolio-list .list-text {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.875;
   letter-spacing: 0.03em;
 }
@@ -227,6 +226,8 @@ footer {
   background-color: var(--primary-bacgr-color);
 }
 
+/* у данного тега пришлось указать font-style: normal т.к. по умолчанию 
+почему то браузер устанавливает italic  */
 address {
   font-style: normal;
 }
